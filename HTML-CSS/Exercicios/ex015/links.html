@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(252, 237, 215);
+        }
+
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+            color: rgba(88, 17, 17, 0.747);
+        }
+
+        .github{
+            color: rgba(129, 15, 236, 0.822);
+            text-decoration: none;
+            font-weight: bold;
+
+        }
+
+        .instagram {
+            color: rgba(168, 45, 121, 0.719);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .linkedin {
+            color: rgba(5, 26, 219, 0.781);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: rgba(99, 12, 12, 0.692);
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: antiquewhite ;
+        }   
+
+        a::after {
+            content: ' [link] ';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(154, 110, 184);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li class="github"><a href="https://github.com/leticiacampana" class="github" target="_blank">Repositório GitHub</a></li>
+        <li class="instagram" ><a href="https://www.instagram.com/leticia_campana/" class="instagram" target="_blank">Perfil Instagram</a></li> 
+        <li  class="linkedin"><a href="https://www.linkedin.com/in/leticiacampana/" class="linkedin" target="_blank">Perfil Linkedin</a></li>
+    </ul>
+</body>
+</html>
